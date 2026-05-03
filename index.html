@@ -491,15 +491,21 @@ for(let i = 0; i < 45; i++){
             💌 RSVP
         </div>
 
-       <form action="https://formspree.io/f/xjglgnwk" method="POST">
-
-    <input type="text" name="name" placeholder="Enter your name" required>
-
-    <button type="submit">Confirm Attendance</button>
-
-          
-
+ <form action="https://formspree.io/f/xjglgnwk"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
+
 
     <div class="footer">
         ✨ We cannot wait to celebrate with you ✨
